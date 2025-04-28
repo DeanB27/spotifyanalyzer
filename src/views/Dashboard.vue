@@ -59,7 +59,7 @@
   <script>
   import SpotifyService from '@/services/spotify';
   import PlaylistInfo from '@/components/PlaylistInfo.vue';
-  import TrackList from '@/components/Tracklist.vue';
+  import TrackList from '@/components/TrackList.vue';
   import PopularityChart from '@/components/PopularityChart.vue';
   import GenreChart from '@/components/GenreChart.vue';
   import MoodChart from '@/components/MoodChart.vue';
