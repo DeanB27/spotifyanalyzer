@@ -1,21 +1,42 @@
 {
   "name": "spotifyanalyzer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "author": "",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "d3": "^7.9.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "_id": "spotifyanalyzer@1.0.0",
+  "bugs": {
+    "url": "https://github.com/DeanB27/SpotifyAnalyzer/issues"
+  },
+  "homepage": "https://github.com/DeanB27/SpotifyAnalyzer#readme",
+  "keywords": [],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DeanB27/SpotifyAnalyzer.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/DeanB27/SpotifyAnalyzer/issues"
-  },
-  "homepage": "https://github.com/DeanB27/SpotifyAnalyzer#readme"
+  "type": "commonjs"
 }
